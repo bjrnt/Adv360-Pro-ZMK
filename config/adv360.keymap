@@ -33,6 +33,15 @@
     macros {
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        CmdBackspace {
+            bindings = <&kp LG(BACKSPACE)>;
+            key-positions = <65 66>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
